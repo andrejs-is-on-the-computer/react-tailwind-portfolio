@@ -7,7 +7,11 @@ module.exports = {
  
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: 'burtons'
+      }
+    },
   },
   plugins: [],
 }
