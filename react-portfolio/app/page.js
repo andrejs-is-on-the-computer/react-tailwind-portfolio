@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import Head from "next/head"
-import styles from './page.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +9,9 @@ export default function Home() {
       </Head>
 
       <main>
-        Hello world :(
+        <section className="bg-blue-700 min-h-screen">
+          Test
+        </section>
       </main>
     </div>
   )
