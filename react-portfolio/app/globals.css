@@ -24,7 +24,7 @@ a {
 }
 
 body * {
-  @apply transition-colors duration-200;
+  @apply transition-colors duration-500;
 }
 
 @font-face {

@@ -25,15 +25,21 @@ export default function Home() {
 
       </Head>
       <nav className="p-5 mb-12 flex justify-between fixed top-0 w-full shadow-md z-50 bg-teal-500 dark:bg-teal-800">
-        <h1 className="text-xl font-burtons dark:text-slate-100">developedbyChevvy</h1>
+        <div className="flex items-center justify-center">
+          <h1 className="text-xl font-burtons text-teal-950 dark:text-teal-200">developedbyChevvy</h1>
+        </div>
+        
         <ul className="flex items-center">
           <li>
-          <div className="mx-auto rounded-full w-10 h-10 overflow-hidden cursor-pointer flex items-center justify-center bg-teal-800 dark:bg-teal-500" onClick={() => setDarkMode(!darkMode)}>
-            <BsFillMoonStarsFill className="text-2xl text-yellow-500 dark:text-yellow-500" />
-          </div>
-            
+            <div className="mx-auto rounded-full w-10 h-10 overflow-hidden cursor-pointer flex items-center justify-center bg-teal-800 dark:bg-teal-500" onClick={() => setDarkMode(!darkMode)}>
+              <BsFillMoonStarsFill className="text-2xl text-teal-500 dark:text-teal-800" />
+            </div>
           </li>
-          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
+          <li>
+            <a className="px-4 py-2 rounded-md ml-8 text-teal-100 bg-teal-800 dark:text-teal-800 dark:bg-teal-500" href="#">
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
 
